@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+#staticBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  animation: static 700ms infinite;
+  background-image:
+      radial-gradient(circle, gray 1%, transparent 1%),
+      radial-gradient(circle, gray 1%, black 1%);
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+}
+
+@keyframes static {
+  0% { background-position: 0 0, 50px 50px; }
+  100% { background-position: 100px 100px, 0 0; }
+}
+
+
+#phoneNumber {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3em;
+  z-index: 2;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
+}
