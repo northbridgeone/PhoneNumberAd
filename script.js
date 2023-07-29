@@ -19,11 +19,10 @@ function renderStatic() {
     var imageData = context.createImageData(canvas.width, canvas.height);
     var data = imageData.data;
     for (var i = 0; i < data.length; i += 4) {
-        var color = Math.random() * 255;
-        data[i] = color;     // red
-        data[i + 1] = color; // green
-        data[i + 2] = color; // blue
-        data[i + 3] = 255;   // alpha
+        data[i] = Math.random() * 255; // red
+        data[i + 1] = Math.random() * 255; // green
+        data[i + 2] = Math.random() * 255; // blue
+        data[i + 3] = 255; // alpha
     }
     context.putImageData(imageData, 0, 0);
 }
