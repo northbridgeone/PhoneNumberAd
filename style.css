@@ -1,23 +1,23 @@
 a:link {
-  color: #4CAF50;
+  color: #CFD8DC;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(8, 8, 8);
+  color: #212121;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #673AB7;
+  color: #651FFF;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: #FFEB3B;
+  color: #FFC107;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -66,7 +66,7 @@ body, html {
       opacity: 1;
   }
   50% {
-      opacity: 0.5;
+      opacity: 0.3;
   }
   100% {
       opacity: 1;
