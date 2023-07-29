@@ -12,10 +12,10 @@ body, html {
   height: 100%;
   overflow: hidden;
   z-index: 1;
-  animation: static 700ms infinite;
+  animation: static 777ms infinite;
   background-image:
-      radial-gradient(circle, gray 1%, transparent 1%),
-      radial-gradient(circle, gray 1%, black 1%);
+      radial-gradient(circle, #F44336 2%, transparent 1%),
+      radial-gradient(circle, #2196F3 2%, black 1%);
   background-position: 0 0, 50px 50px;
   background-size: 100px 100px;
 }
@@ -34,7 +34,7 @@ body, html {
   color: #fff;
   font-size: 3em;
   z-index: 2;
-  animation: pulse 100ms infinite;
+  animation: pulse 777ms infinite;
 }
 
 @keyframes pulse {
