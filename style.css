@@ -34,7 +34,7 @@ body, html {
   color: #fff;
   font-size: 3em;
   z-index: 2;
-  animation: pulse 1s infinite;
+  animation: pulse 100ms infinite;
 }
 
 @keyframes pulse {
