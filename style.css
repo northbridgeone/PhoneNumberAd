@@ -61,17 +61,6 @@ body, html {
   animation: pulse 777ms infinite;
 }
 
-#email {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 3em;
-  z-index: 2;
-  animation: pulse 777ms infinite;
-}
-
 @keyframes pulse {
   0% {
       opacity: 1;
